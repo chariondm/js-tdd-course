@@ -1,0 +1,24 @@
+{
+  "name": "js-tdd-course",
+  "version": "1.0.0",
+  "description": "Our library from ''\u001b[DTDD '\u001b[Dwith'\u001b[D\u001b[2~ JS in Practice' course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chariondm/js-tdd-course.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Marcelo Souza <chariondm@gmail.com> (http://www.chariondm.com.br/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chariondm/js-tdd-course/issues"
+  },
+  "homepage": "https://github.com/chariondm/js-tdd-course#readme"
+}

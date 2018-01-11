@@ -4,6 +4,9 @@
   "description": "Our library from 'TDD with JS in Practice' course.",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint src/*.js",
+    "precommit": "npm run lint",
+    "prepush": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +27,7 @@
   "devDependencies": {
     "eslint": "^4.15.0",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.8.0"
+    "eslint-plugin-import": "^2.8.0",
+    "husky": "^0.14.3"
   }
 }
